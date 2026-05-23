@@ -1,0 +1,6 @@
+{
+  "name": "Método Hábitos e Crenças",
+  "description": "Página de Vendas de Alta Conversão com Neuromarketing e Neurocopywriting para Reprogramação Neural em 30 Dias.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
