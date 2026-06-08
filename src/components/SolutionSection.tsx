@@ -13,13 +13,13 @@ export default function SolutionSection({ onCtaClick }: SolutionSectionProps) {
         {/* Section Header */}
         <div className="text-center space-y-4 max-w-3xl mx-auto mb-14 md:mb-18">
           <span className="text-[10px] font-black tracking-widest text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded uppercase">
-            A Chave Neural Científica
+            O Código Emocional Invisível
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 tracking-tight leading-tight">
-            Apresentando o Método Hábitos e Crenças
+            A Ciência por trás do Método: Decodificando seu Código Emocional
           </h2>
           <p className="text-slate-600 text-sm sm:text-base max-w-xl mx-auto font-medium">
-            O único ecossistema focado no hardware basal do cérebro, estruturado sob 3 pilares absolutos de sustentação comportamental.
+            O único ecossistema focado no hardware basal do cérebro, estruturado sob 3 pilares de modulação neural e reprogramação do subconsciente.
           </p>
           <div className="h-1 bg-emerald-500 w-16 mx-auto rounded" />
         </div>
@@ -57,10 +57,10 @@ export default function SolutionSection({ onCtaClick }: SolutionSectionProps) {
           <div className="lg:col-span-7 space-y-8 order-1 lg:order-2 text-center lg:text-left">
             <div className="space-y-3">
               <h3 className="text-lg font-black text-slate-900 font-display uppercase tracking-widest">
-                Enquanto outros cursos focam em motivação vazia, aqui você instala o hábito no hardware do cérebro.
+                Enquanto outros focam em metas frias ou rotinas inalcançáveis, nós desarmamos a sabotagem sináptica.
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed max-w-xl mx-auto lg:mx-0">
-                A motivação gasta neurotransmissores rápidos que acabam em poucas horas. Nosso treinamento é projetado para criar automação sináptica repetitiva e duradoura através de três pilares:
+                O seu cérebro obedece a um código emocional desenhado na infância. Para mudar de verdade, você precisa reconfigurar o sistema através de três fases integradas:
               </p>
             </div>
 
@@ -73,9 +73,9 @@ export default function SolutionSection({ onCtaClick }: SolutionSectionProps) {
                   <Brain className="w-5 h-5" />
                 </div>
                 <div className="space-y-0.5">
-                  <h4 className="text-sm font-black text-slate-900 uppercase">1. Neuroplasticidade Ativa</h4>
+                  <h4 className="text-sm font-black text-slate-900 uppercase">1. Desativação de Conexões Sinápticas (Desprogramar)</h4>
                   <p className="text-xs text-slate-500 leading-relaxed">
-                    Ativação direcionada de novas conexões sinápticas através de micro-dosagens práticas de 5 minutos, estimulando a adaptação física celular na raiz.
+                    Através de micro-dosagens práticas de áudio de 5-12 minutos, enfraquecemos os caminhos neurais antigos que engatilham a procrastinação automática.
                   </p>
                 </div>
               </div>
@@ -86,9 +86,9 @@ export default function SolutionSection({ onCtaClick }: SolutionSectionProps) {
                   <Heart className="w-5 h-5" />
                 </div>
                 <div className="space-y-0.5">
-                  <h4 className="text-sm font-black text-slate-900 uppercase">2. Reprogramação de Identidade</h4>
+                  <h4 className="text-sm font-black text-slate-900 uppercase">2. Restauração do Autoconceito de Identidade (Reprogramar)</h4>
                   <p className="text-xs text-slate-500 leading-relaxed">
-                    Uso da técnica "Estou me tornando" baseada na teoria do Autoconceito de Identidade para mudar o que você sente sobre quem você é antes de agir.
+                    Uso da técnica clínica de identidade para mudar a percepção inconsciente de quem você é, acabando com a sensação de estar "travada".
                   </p>
                 </div>
               </div>
@@ -99,9 +99,9 @@ export default function SolutionSection({ onCtaClick }: SolutionSectionProps) {
                   <Layers className="w-5 h-5" />
                 </div>
                 <div className="space-y-0.5">
-                  <h4 className="text-sm font-black text-slate-900 uppercase">3. Arquitetura de Ambiente</h4>
+                  <h4 className="text-sm font-black text-slate-900 uppercase">3. Engenharia Comportamental Integrada (Blindar)</h4>
                   <p className="text-xs text-slate-500 leading-relaxed">
-                    Modelagem física e digital do seu entorno para reduzir a fricção social dos hábitos desejados e aumentar drasticamente os hábitos sabotadores.
+                    Modelagem sutil do seu ambiente físico e digital para tornar a consistência natural e a autossabotagem biologicamente custosa.
                   </p>
                 </div>
               </div>

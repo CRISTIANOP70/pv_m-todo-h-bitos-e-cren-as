@@ -37,7 +37,7 @@ export default function ValueStack({ onCtaClick }: ValueStackProps) {
                   <span className="text-[10px] font-black font-display text-blue-700 bg-blue-100/60 px-2.5 py-0.5 rounded leading-none uppercase">
                     {mod.number}
                   </span>
-                  <p className="text-xs font-bold text-slate-500 uppercase tracking-wide">Áudio MP3 + PDF Resumo</p>
+                  <p className="text-xs font-bold text-slate-500 uppercase tracking-wide">Áudio Terapêutico + Material de Integração</p>
                 </div>
 
                 <h4 className="font-extrabold text-sm md:text-base text-slate-950 mb-3 font-display">
@@ -123,8 +123,7 @@ export default function ValueStack({ onCtaClick }: ValueStackProps) {
                 onClick={onCtaClick}
                 className="w-full bg-blue-600 hover:bg-blue-500 text-white font-black h-14 uppercase rounded-2xl flex items-center justify-center gap-2 shadow-lg shadow-blue-600/10 focus:outline-none transition-all active:scale-98 cursor-pointer text-xs"
               >
-                <span>SIM, QUERO TUDO POR R$ 29,90</span>
-                <ArrowRight className="w-4 h-4 text-white" />
+                <span>QUERO REPROGRAMAR MEU CÓDIGO EMOCIONAL →</span>
               </button>
               
               <div className="flex items-center justify-center gap-1.5 mt-3 text-[10px] text-slate-500 font-semibold">

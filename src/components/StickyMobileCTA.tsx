@@ -51,9 +51,9 @@ export default function StickyMobileCTA({ onCtaClick }: StickyMobileCtaProps) {
 
           <button
             onClick={onCtaClick}
-            className="flex-1 max-w-[210px] bg-blue-600 active:bg-blue-700 hover:bg-blue-500 text-white font-black text-xs uppercase h-11 px-3 rounded-xl flex items-center justify-center gap-1.5 shadow-lg shadow-blue-600/10 active:scale-98 transition-all cursor-pointer select-none"
+            className="flex-1 max-w-[210px] bg-orange-600 active:bg-orange-700 hover:bg-orange-500 text-white font-black text-xs uppercase h-11 px-3 rounded-xl flex items-center justify-center gap-1.5 shadow-lg shadow-orange-600/10 active:scale-98 transition-all cursor-pointer select-none"
           >
-            <span>QUERO ATIVAR AGORA</span>
+            <span>ATIVAR POR R$ 29,90</span>
           </button>
         </motion.div>
       )}

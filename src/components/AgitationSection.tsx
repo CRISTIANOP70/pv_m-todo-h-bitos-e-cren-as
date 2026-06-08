@@ -7,10 +7,10 @@ export default function AgitationSection() {
         {/* Section Header */}
         <div className="text-center space-y-4 max-w-2xl mx-auto mb-12">
           <span className="text-[10px] font-black tracking-widest text-blue-600 bg-blue-50 px-2.5 py-1 rounded uppercase">
-            A Anatomia da Sabotagem
+            A Anatomia do Esgotamento
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold font-display text-slate-900 tracking-tight leading-tight">
-            Se você já tentou criar um hábito e morreu na semana 2...
+            Se você está exausta de começar com toda a energia e desistir na semana 2...
           </h2>
           <div className="h-1.5 w-16 bg-blue-600 rounded mx-auto" />
         </div>
@@ -24,14 +24,33 @@ export default function AgitationSection() {
           <div className="md:col-span-12 space-y-6">
             <div className="text-slate-700 text-base md:text-lg leading-relaxed space-y-4 font-normal">
               <p>
-                Quase todos nós já passamos por isso. Você decide mudar. Compra sapatilhas novas, limpa a despensa, cria o cronograma perfeito de leitura ou decide trabalhar com foco extremo. 
+                Quase todas nós já passamos por isso. Você decide mudar. Compra sapatilhas novas, limpa a despensa, cria o cronograma perfeito de leitura ou decide trabalhar com foco extremo. 
                 Sua mente está empolgada. Você sente que, desta vez, tudo será diferente.
               </p>
+
+              {/* Bloco de Vozes da Sabotagem (Frases Reais de Identificação) */}
+              <div className="bg-slate-900 text-slate-100 p-6 md:p-8 rounded-2xl border border-slate-800 shadow-xl space-y-5 my-6 relative z-10">
+                <div className="text-center space-y-1">
+                  <span className="text-[9px] font-black text-blue-400 uppercase tracking-widest font-mono">Dor Silenciosa</span>
+                  <h4 className="text-sm font-bold text-slate-200">Você já se pegou repetindo alguma dessas frases em silêncio?</h4>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  <div className="bg-slate-800/40 p-4 rounded-xl border border-slate-700/20 text-center flex items-center justify-center">
+                    <p className="text-xs sm:text-sm italic font-medium text-slate-300">"Eu comprava livros e nunca terminava."</p>
+                  </div>
+                  <div className="bg-slate-800/40 p-4 rounded-xl border border-slate-700/20 text-center flex items-center justify-center">
+                    <p className="text-xs sm:text-sm italic font-medium text-slate-300">"Começava a dieta na segunda e desistia na quinta."</p>
+                  </div>
+                  <div className="bg-slate-800/40 p-4 rounded-xl border border-slate-700/20 text-center flex items-center justify-center">
+                    <p className="text-xs sm:text-sm italic font-medium text-slate-300">"Achei que era preguiça... Era exaustão emocional."</p>
+                  </div>
+                </div>
+              </div>
               
               {/* Highlight scientific fact */}
               <blockquote className="border-l-4 border-blue-600 bg-blue-500/5 px-4 py-3.5 rounded-r-xl text-slate-800 font-medium my-4">
-                "Você sabia que mais de <b>40% de tudo o que você executa todos os dias</b> não é fruto de decisões conscientes? Na verdade, é apenas o seu cérebro economizando combustível metabólico (glicose). O grande problema é que, no piloto automático, o cérebro economiza repetindo à exaustão os mesmos caminhos sinápticos que te sabotam."
-                <span className="block text-[10px] text-slate-500 tracking-wider font-mono uppercase mt-2">— Dado retirado da Aula de Introdução do Método</span>
+                "Mais de <b>40% de tudo o que você executa todos os dias</b> roda em piloto automático. O grande problema é que esse circuito inconsciente repete caminhos sinápticos antigos desenhados para poupar energia, impedindo a consistência racional."
+                <span className="block text-[10px] text-slate-500 tracking-wider font-mono uppercase mt-2">— Base de Neurociência Aplicada do Método</span>
               </blockquote>
               
               <p>
@@ -49,8 +68,8 @@ export default function AgitationSection() {
                     <XCircle className="w-5 h-5" />
                   </div>
                   <div>
-                    <h5 className="font-bold text-sm text-slate-900 mb-1">Começa na Segunda, desiste na Quinta</h5>
-                    <p className="text-xs text-slate-500">O ânimo inicial da segunda desaparece logo no primeiro imprevisto ou dia exaustivo.</p>
+                    <h5 className="font-bold text-sm text-slate-900 mb-1">Ciclo da Desistência Rápida</h5>
+                    <p className="text-xs text-slate-500">O ânimo inicial da segunda-feira desaparece por completo no primeiro dia estressante ou cansativo.</p>
                   </div>
                 </div>
 
@@ -59,8 +78,8 @@ export default function AgitationSection() {
                     <XCircle className="w-5 h-5" />
                   </div>
                   <div>
-                    <h5 className="font-bold text-sm text-slate-900 mb-1">Se sente Culpado e Burro</h5>
-                    <p className="text-xs text-slate-500">Olha para trás e se pergunta por que não consegue simplesmente manter tarefas básicas.</p>
+                    <h5 className="font-bold text-sm text-slate-900 mb-1">Culpa e Ansiedade Acumuladas</h5>
+                    <p className="text-xs text-slate-500">Olhar para trás, ver tarefas simples inacabadas e sentir-se profundamente travada e culpada.</p>
                   </div>
                 </div>
 
@@ -69,8 +88,8 @@ export default function AgitationSection() {
                     <XCircle className="w-5 h-5" />
                   </div>
                   <div>
-                    <h5 className="font-bold text-sm text-slate-900 mb-1">Acha que não tem Disciplina</h5>
-                    <p className="text-xs text-slate-500">Acredita erroneamente que pessoas de sucesso nasceram com um gene mágico de foco.</p>
+                    <h5 className="font-bold text-sm text-slate-900 mb-1">Exaustão Rotulada como Preguiça</h5>
+                    <p className="text-xs text-slate-500">Acreditar erroneamente que lhe falta força de vontade, ignorando que sua mente subconsciente está esgotada.</p>
                   </div>
                 </div>
               </div>
@@ -81,14 +100,14 @@ export default function AgitationSection() {
               <div className="space-y-1">
                 <h4 className="text-base font-black text-slate-900 flex items-center gap-2">
                   <AlertCircle className="w-5 h-5 text-blue-600 shrink-0" />
-                  <span>A culpa nunca foi sua.</span>
+                  <span>A culpa não é sua.</span>
                 </h4>
                 <p className="text-xs text-slate-500 leading-relaxed max-w-xl">
-                  A culpa é do método puramente motivacional baseado em "esforço bruto" que tentaram te forçar. Você estava tentando empurrar uma parede de concreto com força de vontade, em vez de usar a chave biológica do seu cérebro.
+                  A culpa é de um modelo ineficiente de hábitos baseado em esforço bruto. Você estava tentando empurrar uma barreira biológica com força de vontade pura, em vez de decodificar o seu **Código Emocional Invisível**.
                 </p>
               </div>
               <div className="shrink-0 flex items-center gap-1.5 font-bold text-xs text-blue-600">
-                <span>Ver a Solução Biológica Prática</span>
+                <span>Ver a Reprogramação Prática</span>
                 <ChevronRight className="w-4 h-4 animate-ping" />
               </div>
             </div>

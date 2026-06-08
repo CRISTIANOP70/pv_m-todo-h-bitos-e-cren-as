@@ -18,7 +18,7 @@ export const MODULES_DATA: Module[] = [
     lessons: [
       {
         title: "Aula 1: O Problema Nunca Foi Você, Foi o Método",
-        format: "PDF inteligente + áudio imersivo",
+        format: "Protocolo Visual + Áudio Terapêutico",
         benefit: "Entenda por que 40% das suas ações diárias rodam em piloto automático neurológico e como virar essa chave sem depender de força de vontade."
       }
     ]
@@ -30,12 +30,12 @@ export const MODULES_DATA: Module[] = [
     lessons: [
       {
         title: "Aula 2: O Loop Invisível e os Hábitos Angulares",
-        format: "PDF prático + áudio imersivo",
+        format: "Mapeamento Visual + Áudio Terapêutico",
         benefit: "Como desarmar o ciclo de Deixa, Rotina e Recompensa que mantém comportamentos nocivos rodando em modo silencioso."
       },
       {
         title: "Aula 3: Crenças e Identidade — Técnica 'Estou me tornando'",
-        format: "PDF de aplicação + áudio imersivo",
+        format: "Guia de Integração + Áudio de Reprogramação",
         benefit: "Aprenda a reescrever o que você acredita sobre si mesmo antes de tentar mudar o que faz, reconfigurando os gânglios da base."
       }
     ]
@@ -47,12 +47,12 @@ export const MODULES_DATA: Module[] = [
     lessons: [
       {
         title: "Aula 4: O Sistema é Mais Forte que a Motivação",
-        format: "Guia PDF + áudio imersivo",
+        format: "Mapa Rodoviário + Áudio Terapêutico",
         benefit: "Aplique a Regra dos 3 Hábitos para projetar um ecossistema e rotina tão simplificados que falhar se tornará biologicamente difícil."
       },
       {
         title: "Aula 5: O Plano Prático de 30 Dias (Semana 1 à 4)",
-        format: "Checklist de ação + áudio imersivo",
+        format: "Rastreador Neural + Áudio Terapêutico",
         benefit: "O mapa rodoviário preciso dividido em 4 fases consecutivas de estabilização sináptica e neuroplasticidade guiada."
       }
     ]
@@ -64,12 +64,12 @@ export const MODULES_DATA: Module[] = [
     lessons: [
       {
         title: "Aula 6: Blindagem Mental — A Regra do 'Nunca Falhar 2x Seguidas'",
-        format: "PDF de suporte + áudio assistido",
+        format: "Material de Suporte + Áudio Assistido",
         benefit: "A estratégia psicológica usada por atletas de elite para neutralizar deslizes inevitáveis e evitar o efeito 'chutar o balde'."
       },
       {
         title: "Aula 7: Encerramento — Você é o Capitão do Navio",
-        format: "PDF de autogestão + áudio de ancoragem",
+        format: "Protocolo de Autogestão + Áudio de Ancoragem",
         benefit: "Como solidificar e estender seu novo autoconceito de identidade para sustentar hábitos de alta performance para os próximos anos."
       }
     ]
@@ -158,9 +158,9 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     age: 34,
     role: "Analista de Sistemas",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=faces",
-    before: "Sempre começava projetos de hábitos na segunda e desistia na quinta. Me achava fraco e sem foco.",
-    after: "Entendi que meu ambiente me sabotava. Consegui fixar a leitura diária e atividade física constante há 4 meses usando a regra de nunca falhar 2 dias seguidos.",
-    story: "Tentei ler livros de hábitos mas todos pareciam exigir um esforço monstruoso. No Método Hábitos e Crenças entendi o papel do hardware cerebral. Mudou minha autopercepção. Valeu cada centavo!",
+    before: "Antes eu me sentia completamente travado. A frustração de planejar o dia todo e não executar quase nada estava destruindo minha autoestima.",
+    after: "A reprogramação quebrou a minha paralisia. Agora eu consigo agir com naturalidade, sem aquele peso e ansiedade diária me sufocando.",
+    story: "Tentei de tudo, mas os métodos exigiam um esforço mental que eu não tinha. Entender o meu Código Emocional mudou como eu me vejo. A clareza e a paz de espírito que ganhei valem mil vezes o valor pago.",
     date: "Aprovado há 2 dias"
   },
   {
@@ -168,9 +168,9 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     age: 29,
     role: "Designer Gráfica & Autônoma",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=faces",
-    before: "Procrastinação crônica que destruía meu faturamento. Planejava o dia perfeito, fazia 10% e me sentia culpada por burrice.",
-    after: "Reduzi a fricção dos meus hábitos profissionais. Hoje meu foco começa sem atritos e o App Check30 gamificou minha consistência de maneira viciante.",
-    story: "O Kit Emergência de 60 segundos salvou meus prazos várias vezes nas últimas semanas quando a procrastinação vinha com força. O app Check30 é sensacional e super prático de usar.",
+    before: "Vivia paralisada pela ansiedade de ter que ser produtiva. A culpa por procrastinar era insuportável e virava um ciclo sem fim.",
+    after: "O método me tirou do modo de sobrevivência. A sensação de paz ao terminar o dia sabendo que não me sabotei é indescritível.",
+    story: "As micro-dosagens de áudio foram como uma terapia diária para o meu subconsciente. Hoje eu me sinto no controle emocional das minhas ações, sem me punir por tudo.",
     date: "Aprovada há 1 semana"
   },
   {
@@ -178,9 +178,9 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     age: 41,
     role: "Gestor Comercial",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=faces",
-    before: "Dispersão excessiva no trabalho e negligência com alimentação. Sentia que a correria consumia toda minha força de vontade.",
-    after: "Instalei 3 hábitos âncoras na minha rotina sem esforço absurdo. Meu foco triplicou e emagreci 4kg porque parei de comer compulsivamente por impulso automático.",
-    story: "A mudança de foco em 'Crença e identidade' na Aula 3 desatou nós psicológicos de anos. Eu comprava cursos caríssimos de R$ 500 e nenhum me deu a clareza prática e científica que este me deu por R$ 29,90.",
+    before: "Achava que meu problema era cansaço e falta de vergonha na cara, mas era pura exaustão mental por lutar contra meus próprios padrões invisíveis.",
+    after: "O alívio de entender como meu cérebro funciona me destravou emocionalmente. Parei de brigar com a minha mente e passei a fluir.",
+    story: "Eu comprava treinamentos caríssimos e nenhum ia tão fundo na raiz do problema emocional. A mudança de identidade proposta no método finalmente calou minha voz sabotadora.",
     date: "Aprovado há 3 dias"
   }
 ];

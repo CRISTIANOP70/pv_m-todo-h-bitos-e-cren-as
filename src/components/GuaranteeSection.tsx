@@ -41,7 +41,7 @@ export default function GuaranteeSection() {
           <div className="bg-emerald-500/[0.04] border border-emerald-500/10 p-5 rounded-2xl text-left text-slate-700 text-xs sm:text-sm font-medium leading-relaxed shadow-xs flex gap-3.5 items-start">
             <ShieldCheck className="w-6 h-6 text-emerald-600 shrink-0 mt-0.5" />
             <div>
-              <strong>Funciona de forma simples:</strong> Você faz sua inscrição promocional de apenas R$ 29,90 hoje. Acessa a área de membros, faz as aulas de introdução, ouve os áudios e baixa seus PDFs. Se em até 7 dias você achar que o conteúdo não agregou valor ou simplesmente não se adaptar ao nosso portal de entrega, basta enviar um único e-mail. Nós devolvemos 100% do seu pagamento de volta. Sem perguntas desagradáveis, sem enrolação e sem contratos ocultos.
+              <strong>Funciona de forma simples:</strong> Teste por 7 dias. Se não sentir seu cérebro reagindo diferente aos gatilhos de sabotagem na primeira semana, devolvemos 100%. Basta enviar um único e-mail. Sem perguntas desagradáveis, sem enrolação e sem contratos ocultos.
             </div>
           </div>
 

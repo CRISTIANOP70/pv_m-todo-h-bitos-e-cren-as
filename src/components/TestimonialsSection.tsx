@@ -63,7 +63,20 @@ export default function TestimonialsSection() {
                   {/* DEPOIS: A Transmuta */}
                   <div className="bg-emerald-500/5 border border-emerald-500/10 p-3 rounded-xl">
                     <span className="text-[9px] font-black text-emerald-700 uppercase tracking-widest block mb-0.5">🟢 DEPOIS (O Hábito Blindado):</span>
-                    <p className="text-slate-800 font-semibold">"{t.after}"</p>
+                    <p className="text-slate-800 font-semibold">"{(() => {
+                      const highlights = [
+                        'Consegui fixar a leitura diária e atividade física constante há 4 meses',
+                        'App Check30 gamificou minha consistência',
+                        'Meu foco triplicou e emagreci 4kg'
+                      ];
+                      let text = t.after;
+                      const match = highlights.find(h => text.includes(h));
+                      if (match) {
+                        const parts = text.split(match);
+                        return <>{parts[0]}<mark style={{ background: '#FEF08A', padding: '2px 4px', fontWeight: 700, borderRadius: '4px' }}>{match}</mark>{parts[1]}</>;
+                      }
+                      return text;
+                    })()}"</p>
                   </div>
 
                   {/* Complete detailed Story context */}
