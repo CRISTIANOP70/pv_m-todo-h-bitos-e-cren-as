@@ -67,24 +67,7 @@ export default function HeroSection({ onCtaClick }: HeroSectionProps) {
             Descubra como reprogramar as crenças invisíveis do subconsciente que sabotam sua consistência, alimentam a ansiedade e geram procrastinação.
           </p>
 
-          {/* VSL Video Container */}
-          <div className="relative w-full max-w-3xl mx-auto aspect-video bg-slate-900 rounded-2xl shadow-2xl overflow-hidden ring-1 ring-slate-900/10 my-8 group cursor-pointer">
-            <img 
-              src="https://images.unsplash.com/photo-1573164713988-8665fc963095?w=1200&h=675&fit=crop&q=80" 
-              alt="Apresentação do Método" 
-              className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700" 
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent" />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-blue-600/90 rounded-full flex items-center justify-center backdrop-blur-sm shadow-[0_0_40px_rgba(37,99,235,0.4)] group-hover:scale-110 transition-transform duration-300">
-                <div className="w-0 h-0 border-y-[10px] sm:border-y-[12px] border-y-transparent border-l-[16px] sm:border-l-[20px] border-l-white ml-1.5 sm:ml-2"></div>
-              </div>
-            </div>
-            <div className="absolute top-4 left-4 bg-black/40 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/10 text-white text-xs font-semibold flex items-center gap-2">
-               <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
-               Assista ao vídeo para desbloquear o método
-            </div>
-          </div>
+
 
           {/* Bullets feature preview */}
           <div className="hidden sm:grid grid-cols-2 gap-4 text-xs sm:text-sm font-semibold text-slate-700 py-3 px-6 bg-white/60 rounded-2xl border border-slate-200/50 max-w-xl mx-auto text-left">
